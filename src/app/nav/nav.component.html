@@ -1,0 +1,19 @@
+<nav>
+    <span><img src="../../assets/asusulogo.svg" /><button *ngIf="open" (click) = "showNav()"><img src="../../assets/navicon.svg" /></button><button *ngIf="closee" (click) = "showNav()"><img src="../../assets/closebutton.svg" /></button></span>
+    <div id="links">
+        <span>
+            <a href="#pricing" routerLink="/pricing">Pricing</a>
+            <a href="#about" routerLink="/about">About Us</a>
+            <a href="#whyus" routerLink="/whyus">Why Us</a>
+            <a href="#demo" routerLink="/demo">Get A Demo</a></span>
+        <button>Get Started</button>
+    </div>
+    <div id="smalllinks" [class]="dropdown">
+        <span>
+            <a href="#pricing" routerLink="/pricing">Pricing</a>
+            <a href="#about" routerLink="/about">About Us</a>
+            <a href="#whyus" routerLink="/whyus">Why Us</a>
+            <a href="#demo" routerLink="/demo">Get A Demo</a></span>
+        <button>Get Started</button>
+    </div>
+</nav>

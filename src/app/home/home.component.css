@@ -1,0 +1,765 @@
+div#homesection1 {
+    width: 100%;
+    margin-left: 0%;
+    height: auto;
+    background-image: url("../../assets/connect1.svg"), url("../../assets/connect2.svg");
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 35% 100%, 55% 100%;
+    margin-top: 0px;
+    min-height: 1100px;
+    height: auto;
+}
+div#homesection1 > div {
+    background-color: #CCE7F880;
+    padding-top: 40px;
+    height: calc(100% - 40px);
+}
+
+div#homesection1 > div > div {
+    display: grid;
+    grid-template-columns: 50% 40%;
+    grid-template-rows: 775px;
+    margin-top: 20px;
+    grid-column-gap: 10%;
+    width: 96%;
+    margin-left: 2%;
+}
+
+div#homesection1 > div > div > div:nth-child(1) {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+div#homesection1 > div > div > div:nth-child(1) > p.digital {
+    font-size: 64px;
+    font-weight: 600;
+    font-family: Montserrat;
+    line-height: 78px;
+    color: #001B2C;
+}
+div#homesection1 > div > div > div:nth-child(1) > p.digital > span {
+    color: #0071B8;
+}
+
+div#homesection1 > div > div > div:nth-child(1) > p.account {
+    font-size: 20px;
+    color: #001B2C;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+div#homesection1 > div > div > div:nth-child(1) > p:nth-child(3) {
+    width: 350px;
+    display: inline-flex;
+    justify-content: space-between;
+    height: auto;
+}
+div#homesection1 > div > div > div:nth-child(1) > p:nth-child(3) button {
+    width: 180px;
+    height: 64px;
+    background-color: #0087DD;
+    border: 0px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 16px;
+}
+div#homesection1 > div > div > div:nth-child(1) > p:nth-child(3) span {
+    padding-top: 10px;
+    height: 100%;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 120px;
+}
+div#homesection1 > div > div > div:nth-child(1) > p:nth-child(4) {
+    color: #505050;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+}
+div#homesection1 > div > div > div:nth-child(1) > p:nth-child(5) {
+    width: 470px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div#homesection1 > div > div > div:nth-child(1) > p:nth-child(5) > img {
+    width: 60px;
+    height: 42px;
+}
+
+div#homesection1 > div > div > div > img{
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+}
+div#homesection1 > div > div > div > img.show{
+    display: block;
+}
+div#homesection1 > div > div > div > img.hide{
+    display: none;
+}
+
+/* Styling for the second section */
+div#homesection2{
+    height: auto;
+    margin-top: 10px;
+}
+
+div.partner1 {
+    display: grid;
+    grid-template-columns: 45% 50%;
+    grid-template-rows: 750px;
+    width: 96%;
+    margin-left: 2%;
+}
+div.partner2 {
+    display: grid;
+    grid-template-columns: 50% 45%;
+    grid-template-rows: 900px;
+    width: 96%;
+    margin-left: 2%;
+}
+div.partner1 img, div.partner2 img{
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+}
+
+div.partner1 > div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+div.partner1 > div:nth-child(2) > p:nth-child(1){
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    height: auto;
+}
+div.partner1 > div:nth-child(2) > p:nth-child(2){
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+div.partner1 > div > div.check {
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.partner1 > div > div.check > div {
+    height: 100%;
+    width: calc(92.5% - 50px);
+    color: #505050;
+    text-align: justify;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+div.partner1 > div > div.check > img{
+    height: 100%;
+    width: 50px;
+    margin-top: 0px;
+}
+div.partner1 > div > div:nth-child(6) {
+    width: 370px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.partner1 > div > div:nth-child(6) > button {
+    width: 170px;
+    height: 100%;
+    background-color: #0087DD;
+    border: 0px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+div.partner1 > div > div:nth-child(6) > span {
+    height: 100%;
+    width: auto;
+    padding-top: 12.5px;
+}
+div.partner2 > div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+div.partner2 > div:nth-child(1) > p:nth-child(1){
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    height: auto;
+}
+div.partner2 > div:nth-child(1) > div.check{
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+div.partner2 > div:nth-child(1) > div.check > div{
+    height: 100%;
+    text-align: justify;
+    width: calc(92.5% - 50px);
+    font-size: 20px;
+    line-height: 32px;
+}
+
+div.partner2 > div:nth-child(1) > div.check > img{
+    height: 100%;
+    width: 50px;
+    margin-top: 12.5px;
+}
+div.partner2 > div:nth-child(1) > button{
+    height: 60px;
+    width: 170px;
+    background-color: #0087DD;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 10px;
+}
+div.partner2 > div:nth-child(1) > div.check > div > p{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+div.partner2 > div:nth-child(1) > div.check > div > p:nth-child(1){
+    font-weight: 600;
+}
+
+
+/* Styling for the third section */
+div#homesection3{
+    margin-top: 50px;
+    min-height: 720px;
+    background-image: url("../../assets/decor.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+div#homesection3 > div#homesect {
+    background-color: #0071B820;
+    width: 100%;
+    min-height: 750px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+div#homesection3 > div#homesect > p:nth-child(1) {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58.41px;
+    color: #001B2C;
+    width: 620px;
+    height: 115px;
+    margin-left: 128px;
+}
+div#homesection3 > div#homesect > p:nth-child(2) {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 465px;
+    height: 72px;
+    margin-left: 128px;
+}
+div#homesection3 > div#homesect > div > div > p:nth-child(1) {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+div#homesection3 > div#homesect > div > div > button {
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 15px;
+    height: 40px;
+    width: 150px;
+    color: #0087DD;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5px;
+}
+div#homesection3 > div#homesect > div > div > button > img {
+    height: 14px;
+    width: 14px;
+    margin-top: -1px;
+}
+div#homesection3 > div#homesect > div > div > p:nth-child(2) {
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+div#homesection3 > div > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 950px;
+    margin-left: calc((100% - 950px)/2);
+    height: auto;
+}
+div#homesection3 > div > div > div {
+    width: 30%;
+    height: 300px;
+    padding-left: 15px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+div#homesection3 > div > div > div > img {
+    width: 20%;
+    height: 30px;
+}
+@media screen and (max-width : 1200px){
+    div#homesection3 > div > div{
+        width: 750px;
+        margin-left: calc((100% - 750px)/2);
+        height: auto;
+    }
+}
+@media screen and (max-width : 1150px ){
+    /* Styling for home section 1*/
+    div#homesection1 {
+        min-height: 800px;
+    }
+    div#homesection1 > div {
+        height: 100%;
+    }
+    div#homesection1 > div > div {
+        height: 600px;
+    }
+    div#homesection1 > div > div > div {
+        height: 600px;
+    }
+    div#homesection1 > div > div > div > img{
+        width: 100%;
+        height: 370px;
+        margin-top: 100px;
+    }
+    div#homesection1 > div > div > div:nth-child(1) > p.digital {
+        font-size: 42px;
+        font-weight: 600;
+        font-family: Montserrat;
+        line-height: 51px;
+        color: #001B2C;
+    }
+    div#homesection1 > div > div > div:nth-child(1) > p.account {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    div#homesection1 > div > div > div:nth-child(1) > p:nth-child(3) {
+        width: 250px;
+    }
+    div#homesection1 > div > div > div:nth-child(1) > p:nth-child(3) > button {
+        width: 120px;
+        height: 42px;
+    }
+    div#homesection1 > div > div > div:nth-child(1) > p:nth-child(6) {
+        width: 300px;
+        height: 30px;
+    }
+    div#homesection1 > div > div > div:nth-child(1) > p:nth-child(6) > img {
+        width: 30px;
+        height: 30px;
+    }
+    /* Styling for home section 2*/
+    div.partner1 {
+        grid-template-rows: 500px;
+        width: 96%;
+        margin-left: 2%;
+    }
+    div.partner1 > div:nth-child(2) > p:nth-child(1){
+        font-size: 32px;
+        line-height: 40px;
+    }
+    div.partner1 > div:nth-child(2) > p:nth-child(2){
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 500;
+    }
+    div.partner1 > div > div.check {
+        height: 60px;
+    }
+    div.partner1 > div > div.check > div {
+        width: calc(92.5% - 40px);
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 300;
+    }
+    div.partner1 > div > div:nth-child(6) {
+        width: 250px;
+    }
+    div.partner1 > div > div:nth-child(6) > button {
+        width: 130px;
+        border-radius: 8px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    div.partner1 > div > div:nth-child(6) > span {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    div.partner2 {
+        grid-template-rows: 600px;
+    }
+    div.partner2 > div > div.check > div {
+        width: calc(92.5% - 40px);
+        font-size: 12px;
+        line-height: 18px;
+    }
+    div.partner2 > div > div.check {
+        height: 80px;
+    }
+    div.partner2 > div:nth-child(1) > p:nth-child(1){
+        font-size: 32px;
+        line-height: 40px;
+    }
+    div.partner2 > div:nth-child(1) > div.check > div{
+        font-size: 12px;
+    }
+    div.partner1 img, div.partner2 img{
+        width: 100%;
+        height: 400px;
+        margin-top: 50px;
+    }
+    div.partner2 div.check p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    div.partner2 > div:nth-child(1) > button{
+        width: 130px;
+        height: 45px;
+    }
+
+
+    /* Styling for home section 3*/
+    div#homesection3 {
+        height: 510px;
+    }
+    div#homesection3 > div > div{
+        width: 650px;
+        margin-left: calc((100% - 650px)/2);
+        height: auto;
+    }
+    div#homesection3 > div#homesect > p:nth-child(1) {
+        font-size: 32px;
+        line-height: 40px;
+        width: 364px;
+        margin-left: 95px;
+        height: 80px;
+    }
+    div#homesection3 > div#homesect > p:nth-child(2) {
+        font-size: 12px;
+        line-height: 18px;
+        width: 364px;
+        height: 55px;
+        margin-left: 95px;
+    }
+    div#homesection3 > div#homesect > div > div > button {
+        font-family: Poppins;
+        font-size: 8px;
+        height: 25px;
+        width: 90px;
+        font-weight: 400;
+    }
+    div#homesection3 > div#homesect > div > div > p:nth-child(2) {
+        font-family: Poppins;
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 400;
+    }
+    div#homesection3 > div#homesect > div > div > p:nth-child(3) {
+        font-family: Poppins;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 300;
+    }
+
+}
+@media screen and (max-width : 900px ){
+    div#homesection1 {
+        min-height: 800px;
+    }
+    div#homesection1 > div {
+        height: 100%;
+    }
+    div#homesection1 > div > div{
+        height: 600px;
+    }
+    div#homesection1 > div > div > div {
+        margin-top: 0px;
+    }
+    div#homesection1 > div > div > div > img{
+        height: 230px;
+        margin-top: 70px;
+    }
+    div#homesection1 > div > div > div:nth-child(1) > p.digital {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    div#homesection1 > div > div > div:nth-child(1) > p.account {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    div#homesection1 > div > div > div:nth-child(1) > p:nth-child(3) {
+        width: 300px;
+    }
+    div#homesection1 > div > div > div:nth-child(1) > p:nth-child(3) > button {
+        width: 100px;
+        font-size: 10px;
+    }
+    div#homesection1 > div > div > div:nth-child(1) > p:nth-child(6) {
+        width: 300px;
+        height: 30px;
+    }
+    div#homesection1 > div > div > div:nth-child(1) > p:nth-child(6) > img {
+        width: 30px;
+        height: 30px;
+    }
+    /* Styling for homesection3 */
+    div#homesection3 > div > div{
+        width: 530px;
+        margin-left: calc((100% - 530px)/2);
+        height: 300px;
+    }
+    div#homesection3 > div > div > div{
+        width: 30%;
+        height: 300px;
+    }
+    div#homesection3 > div > div > div > p:nth-child(2){
+        font-size: 9px;
+        line-height: 12px;
+    }
+    div#homesection3 > div > div > div > p:nth-child(3){
+        font-size: 7px;
+        line-height: 9px;
+    }
+
+}
+@media screen and (max-width : 815px){
+    /* Styling for section 2*/
+    div.partner1 {
+        grid-template-rows: 650px;
+    }
+    div.partner2 {
+        grid-template-rows: 700px;
+    }
+    div.partner1 img, div.partner2 img{
+        width: 100%;
+        height: 500px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width : 650px) {
+    /*Styling for homesection1*/
+    div#homesection1 {
+        min-height: 600px;
+    }
+    div#homesection1 > div {
+        height: 100%;
+    }
+    div#homesection1 > div > div{
+        height: 500px;
+    }
+    div#homesection1 > div > div > div:nth-child(2){
+        display: none;
+    }
+    div#homesection1 > div > div{
+        margin-top: 20px;
+        display: block;
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    div#homesection1 > div > div > div:nth-child(1) {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    /* Styling for homesection2 */
+    div#homesection2 > div.partner1 {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 500px 800px;
+        width: 80%;
+        margin-left: 10%;
+    }
+    div.partner2 {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 500px 800px;
+        width: 80%;
+        margin-left: 10%;
+    }
+    div.partner2 > div:nth-child(2){
+        grid-row: 1/2;
+    }
+    div.partner2 > div:nth-child(1){
+        grid-row: 2/3;
+    }
+    div.partner1 div.check {
+        height: 120px;
+    }
+    /* Styling for homesection3 */
+    div#homesection3 > div > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 220px;
+        height: 700px;
+        margin-left: calc((100% - 220px)/2);
+    }
+    
+    div#homesection3 > div > div > div{
+        width: 100%;
+        height: 200px;
+    }
+    div#homesection3 {
+        height: 1000px;
+    }
+    div#homesect {
+        height: 100%;
+    }
+    div#homesection3 > div#homesect > div > div > button {
+        font-family: Poppins;
+        font-size: 8px;
+        height: 30px;
+        width: 100px;
+        font-weight: 400;
+    }
+    div#homesection3 > div#homesect > div > div > p:nth-child(2) {
+        font-size: 12px;
+        line-height: 26px;
+        font-weight: 400;
+    }
+    div#homesection3 > div#homesect > div > div > p:nth-child(3) {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    div#homesection3 > div#homesect > p:nth-child(1){
+        margin-left: calc((100% - 220px)/2);
+        padding-left: 0px;
+        font-size: 18px;
+        line-height: 22px;
+        width: 220px;
+    }
+    div#homesection3 > div#homesect > p:nth-child(2){
+        width: 220px;
+        margin-left: calc((100% - 220px)/2);
+        font-size: 10px;
+        line-height: 15px;
+        height: 60px;
+    }
+}
+@media screen and (max-width : 430px ){
+    /* Styling for homesection2*/
+    div#homesection2 > div.partner1 {
+        display: grid;
+        grid-template-rows: 500px 800px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    div.partner2 {
+        display: grid;
+        grid-template-rows: 500px 900px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    /* Styling for homesection3 */
+    div#homesection3 > div > p:nth-child(1){
+        line-height: 22px;
+        font-size: 18px;
+    }
+    div#homesection3 > div > p:nth-child(2){
+        font-size: 10px;
+        line-height: 15px;
+    }
+    div#homesection3 > div#homesect > div > div > p:nth-child(2) {
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 400;
+    }
+    div#homesection3 > div#homesect > div > div > p:nth-child(3) {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
+
+@media screen and (max-width : 340px ){
+    /* Styling for homesection1*/
+    div#homesection1 > div > div > div:nth-child(1) > p:nth-child(3) {
+        width: 100%;
+        height: 50px;
+    }
+    div#homesection1 > div > div > div:nth-child(1) > p:nth-child(3) button {
+        width: 40%;
+        height: 50px;
+        font-size: 8px;
+    }
+    div.partner1 > div > div:nth-child(6) {
+        width: 100%;
+        height: 50px;
+    }
+    /* Styling for homesection2*/
+    div#homesection2 > div.partner1 {
+        grid-template-rows: 500px 900px;
+    }
+    div.partner2 {
+        grid-template-rows: 500px 1000px;
+    }
+}
+@media screen and (max-width : 300px ){
+    /* Styling for homesection3 */
+    div#homesection3 > div > div{
+        width: 100%;
+        margin-left: 0px;
+    }
+    div#homesection3 > div > div > div{
+        width: 180px;
+        margin-left: calc((100% - 180px)/2);
+    }
+    div#homesection3 > div > p{
+        width: 100%;
+        margin-left: 0px;
+    }
+    div#homesection1 > div > div > div:nth-child(1) > p:nth-child(3) {
+        width: 100%;
+    }
+    div#homesection1 > div > div > div:nth-child(1) > p:nth-child(3) > button {
+        width: 70px;
+        font-size: 5px;
+    }
+    /* Styling for homesection2 */
+    div#homesection2 > div.partner1 {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 500px 900px;
+        width: 80%;
+        margin-left: 10%;
+    }
+    div.partner2 {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 500px 900px;
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width : 260px ){
+
+}
