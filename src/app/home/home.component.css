@@ -56,15 +56,15 @@ div#homesection1 > div > div > div:nth-child(1) > p:nth-child(3) {
     height: auto;
 }
 div#homesection1 > div > div > div:nth-child(1) > p:nth-child(3) button {
-    width: 180px;
-    height: 64px;
+    width: 150px;
+    height: 40px;
     background-color: #0087DD;
     border: 0px;
-    border-radius: 10px;
+    border-radius: 5px;
     color: #FFFFFF;
     font-family: Poppins;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 12px;
 }
 div#homesection1 > div > div > div:nth-child(1) > p:nth-child(3) span {
     padding-top: 10px;
@@ -121,7 +121,7 @@ div.partner1 {
 div.partner2 {
     display: grid;
     grid-template-columns: 630px 520px;
-    grid-template-rows: 750px;
+    grid-template-rows: 800px;
     width: 1100px;
     margin-left: calc((100% - 1100px)/2);
 }
@@ -204,24 +204,42 @@ div.partner2 > div:nth-child(1) > p:nth-child(1){
     height: auto;
 }
 div.partner2 > div:nth-child(1) > div.check{
-    height: 140px;
+    height: 180px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
 }
 div.partner2 > div:nth-child(1) > div.check > div{
-    height: 100%;
-    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.partner2 > div:nth-child(1) > div.check > p{
+    height: calc(10px auto) ;
     width: calc(92.5% - 50px);
     font-size: 20px;
     line-height: 32px;
+    margin-left: calc(7.5% + 50px);
+}
+div.partner2 > div:nth-child(1) > div.check > div{
+    height: 110px;
+    width: 100%;
+    padding-top: 0px;
+}
+div.partner2 > div:nth-child(1) > div.check > div > p{
+    width: calc(92.5% - 50px); 
+    font-size: 20px;
+    line-height: 32px;
+    text-align: justify;
+    color: #505050;
+    font-family: Poppins;
     padding-top: 10px;
 }
 
-div.partner2 > div:nth-child(1) > div.check > img{
+div.partner2 > div:nth-child(1) > div.check > div > img{
     height: 50px;
     width: 50px;
-    margin-top: 45px;
+    margin-top: 30px;
 }
 div.partner2 > div:nth-child(1) > button{
     height: 50px;
@@ -406,7 +424,7 @@ div#homesection3 > div > div > div > img {
     div.partner2 {
         display: grid;
         grid-template-columns: 500px 400px;
-        grid-template-rows: 700px;
+        grid-template-rows: 800px;
         width: 1000px;
         margin-left: calc((100% - 1000px)/2);
     }
@@ -713,14 +731,14 @@ div#homesection3 > div > div > div > img {
     div#homesection2 > div.partner1 {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 400px 700px;
+        grid-template-rows: 350px 700px;
         width: 80%;
         margin-left: 10%;
     }
     div.partner2 {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 400px 800px;
+        grid-template-rows: 350px 800px;
         width: 80%;
         margin-left: 10%;
     }
@@ -736,7 +754,7 @@ div#homesection3 > div > div > div > img {
     div.partner1 img, div.partner2 img{
         width: 250px;
         height: 300px;
-        margin-top: 50px;
+        margin-top: 20px;
     }
     div.partner1 > div > div.check > div {
         padding-top: 8px;
@@ -809,13 +827,13 @@ div#homesection3 > div > div > div > img {
     /* Styling for homesection2*/
     div#homesection2 > div.partner1 {
         display: grid;
-        grid-template-rows: 450px 850px;
+        grid-template-rows: 350px 850px;
         width: 90%;
         margin-left: 5%;
     }
     div.partner2 {
         display: grid;
-        grid-template-rows: 450px 850px;
+        grid-template-rows: 350px 850px;
         width: 90%;
         margin-left: 5%;
     }
@@ -867,10 +885,10 @@ div#homesection3 > div > div > div > img {
     }
     /* Styling for homesection2*/
     div#homesection2 > div.partner1 {
-        grid-template-rows: 400px 800px;
+        grid-template-rows: 350px 800px;
     }
     div.partner2 {
-        grid-template-rows: 400px 800px;
+        grid-template-rows: 350px 800px;
     }
     div.partner1 > div > div:nth-child(6) {
         width: 100%;
@@ -902,14 +920,14 @@ div#homesection3 > div > div > div > img {
     div#homesection2 > div.partner1 {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 400px 1000px;
+        grid-template-rows: 350px 1000px;
         width: 80%;
         margin-left: 10%;
     }
     div.partner2 {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 400px 1000px;
+        grid-template-rows: 350px 1000px;
         width: 80%;
         margin-left: 10%;
     }

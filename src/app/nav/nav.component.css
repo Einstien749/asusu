@@ -23,7 +23,7 @@ nav > span > img {
 }
 nav > span > button {
     display: none;
-    background-color: #CCE7F880;
+    background-color: #CCE7F805;
     border: 0px;
     height: 60%;
     width: 50px;
@@ -50,7 +50,7 @@ nav > div#links > span {
 nav > div#links > span > a {
     color: #001B2C;
 }
-nav > div > button {
+nav > div#links > button {
     background-color: #0087DD;
     border: 0px;
     border-radius: 10px;
@@ -92,7 +92,14 @@ nav > div#smalllinks.hide {
     display: none;
 }
 nav > div#smalllinks > button {
-    margin-left: calc((100% - 200px)/2);
+    width: 120px;
+    border-radius: 5px;
+    margin-left: calc((100% - 120px)/2);
+    height: 40px;
+    background-color: #0087DD;
+    border: 0px;
+    border-radius: 5px;
+    color: #FFFFFF;
 }
 a:link{
     color: #001B2C;
@@ -144,10 +151,10 @@ a:link{
         font-size: 12.5px;
     }
     nav > div#smalllinks > button {
-        height: 30px;
+        height: 40px;
         font-size: 10px;
-        width: 150px;
-        margin-left: calc((100% - 150px)/2);
+        width: 120px;
+        margin-left: calc((100% - 120px)/2);
     }
     nav > div#smalllinks{
         height: 200px;

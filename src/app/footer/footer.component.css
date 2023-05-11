@@ -335,7 +335,15 @@ div#footer2 > div {
         margin-top: 10px;
     }
 }
-@media screen and (max-width : 330px ){
+@media screen and (max-width : 466px){
+    div#footer2 > div:nth-child(1) {
+        width: 70%;
+    }
+    div#footer2 > div:nth-child(2) {
+        width: 60%;
+    }
+}
+@media screen and (max-width : 340px ){
     /* Styling for footer2 */
     div#footer2 {
         width: 90%;
@@ -349,6 +357,7 @@ div#footer2 > div {
     div#footer2 > div:nth-child(1) {
         width: 90%;
         margin-left: 5%;
+        font-size: 15px;
     }
     div#footer2 > div:nth-child(2) {
         width: 70%;
