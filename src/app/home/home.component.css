@@ -7,7 +7,7 @@ div#homesection1 {
     background-repeat: no-repeat, no-repeat;
     background-size: 35% 100%, 55% 100%;
     margin-top: 0px;
-    min-height: 1100px;
+    min-height: 900px;
     height: auto;
 }
 div#homesection1 > div {
@@ -18,17 +18,17 @@ div#homesection1 > div {
 
 div#homesection1 > div > div {
     display: grid;
-    grid-template-columns: 50% 40%;
+    grid-template-columns: 600px 600px;
     grid-template-rows: 775px;
     margin-top: 20px;
     grid-column-gap: 10%;
-    width: 96%;
+    width: 1200px;
     margin-left: 2%;
 }
 
 div#homesection1 > div > div > div:nth-child(1) {
     padding-left: 50px;
-    padding-top: 50px;
+    padding-top: 0px;
 }
 div#homesection1 > div > div > div:nth-child(1) > p.digital {
     font-size: 64px;
@@ -82,19 +82,19 @@ div#homesection1 > div > div > div:nth-child(1) > p:nth-child(4) {
     font-weight: 500;
 }
 div#homesection1 > div > div > div:nth-child(1) > p:nth-child(5) {
-    width: 470px;
-    height: 45px;
+    width: 480px;
+    height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 div#homesection1 > div > div > div:nth-child(1) > p:nth-child(5) > img {
     width: 60px;
-    height: 42px;
+    height: 50px;
 }
 
 div#homesection1 > div > div > div > img{
-    width: 100%;
+    width: 500px;
     height: 500px;
     margin-top: 100px;
 }
@@ -107,26 +107,26 @@ div#homesection1 > div > div > div > img.hide{
 
 /* Styling for the second section */
 div#homesection2{
-    height: auto;
-    margin-top: 10px;
+    height: 1600px;
+    margin-top: 0px;
 }
 
 div.partner1 {
     display: grid;
-    grid-template-columns: 45% 50%;
+    grid-template-columns: 520px 630px;
     grid-template-rows: 750px;
-    width: 96%;
-    margin-left: 2%;
+    width: 1200px;
+    margin-left: calc((100% - 1200px)/2);
 }
 div.partner2 {
     display: grid;
-    grid-template-columns: 50% 45%;
-    grid-template-rows: 900px;
-    width: 96%;
-    margin-left: 2%;
+    grid-template-columns: 630px 520px;
+    grid-template-rows: 750px;
+    width: 1100px;
+    margin-left: calc((100% - 1100px)/2);
 }
 div.partner1 img, div.partner2 img{
-    width: 100%;
+    width: 500px;
     height: 600px;
     margin-top: 50px;
 }
@@ -164,11 +164,12 @@ div.partner1 > div > div.check > div {
     font-weight: 300;
     font-size: 16px;
     line-height: 24px;
+    padding-top: 20px;
 }
 div.partner1 > div > div.check > img{
-    height: 100%;
+    height: 50px;
     width: 50px;
-    margin-top: 0px;
+    margin-top: 20px;
 }
 div.partner1 > div > div:nth-child(6) {
     width: 370px;
@@ -214,12 +215,13 @@ div.partner2 > div:nth-child(1) > div.check > div{
     width: calc(92.5% - 50px);
     font-size: 20px;
     line-height: 32px;
+    padding-top: 10px;
 }
 
 div.partner2 > div:nth-child(1) > div.check > img{
-    height: 100%;
+    height: 50px;
     width: 50px;
-    margin-top: 12.5px;
+    margin-top: 45px;
 }
 div.partner2 > div:nth-child(1) > button{
     height: 60px;
@@ -232,16 +234,22 @@ div.partner2 > div:nth-child(1) > button{
 div.partner2 > div:nth-child(1) > div.check > div > p{
     padding-top: 0px;
     margin-top: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #505050;
 }
 div.partner2 > div:nth-child(1) > div.check > div > p:nth-child(1){
     font-weight: 600;
+    color: #001B2C;
 }
 
 
 /* Styling for the third section */
 div#homesection3{
-    margin-top: 50px;
-    min-height: 720px;
+    margin-top: 0px;
+    height: 700px;
     background-image: url("../../assets/decor.svg");
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -249,9 +257,10 @@ div#homesection3{
 div#homesection3 > div#homesect {
     background-color: #0071B820;
     width: 100%;
-    min-height: 750px;
+    height: 100%;
     display: flex;
-    justify-content: space-evenly;
+    margin-top: 0px;
+    /*justify-content: space-around;*/
     flex-direction: column;
 }
 div#homesection3 > div#homesect > p:nth-child(1) {
@@ -261,8 +270,8 @@ div#homesection3 > div#homesect > p:nth-child(1) {
     line-height: 58.41px;
     color: #001B2C;
     width: 620px;
-    height: 115px;
     margin-left: 128px;
+    padding-top: 0px;
 }
 div#homesection3 > div#homesect > p:nth-child(2) {
     font-family: Poppins;
@@ -272,6 +281,7 @@ div#homesection3 > div#homesect > p:nth-child(2) {
     width: 465px;
     height: 72px;
     margin-left: 128px;
+    padding-top: 0px;
 }
 div#homesection3 > div#homesect > div > div > p:nth-child(1) {
     font-family: Poppins;
@@ -289,14 +299,22 @@ div#homesection3 > div#homesect > div > div > button {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 5px;
+    padding-top: 8.5px;
+    border: 1px #0087DD solid;
+    border-radius: 5px;
 }
 div#homesection3 > div#homesect > div > div > button > img {
     height: 14px;
     width: 14px;
-    margin-top: -1px;
+    margin-top: -2px;
 }
 div#homesection3 > div#homesect > div > div > p:nth-child(2) {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+div#homesection3 > div#homesect > div > div > p:nth-child(3) {
     font-family: Poppins;
     font-weight: 300;
     font-size: 14px;
@@ -320,36 +338,31 @@ div#homesection3 > div > div > div {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    box-shadow: 5px 5px #0071B810;
 }
 
 div#homesection3 > div > div > div > img {
     width: 20%;
     height: 30px;
 }
-@media screen and (max-width : 1200px){
-    div#homesection3 > div > div{
-        width: 750px;
-        margin-left: calc((100% - 750px)/2);
-        height: auto;
-    }
-}
-@media screen and (max-width : 1150px ){
+
+@media screen and (max-width : 1350px){
     /* Styling for home section 1*/
     div#homesection1 {
-        min-height: 800px;
+        min-height: 700px;
     }
-    div#homesection1 > div {
-        height: 100%;
-    }
+    
     div#homesection1 > div > div {
-        height: 600px;
-    }
-    div#homesection1 > div > div > div {
-        height: 600px;
+        display: grid;
+        grid-template-columns: 500px 400px;
+        grid-template-rows: 575px;
+        margin-top: 20px;
+        grid-column-gap: 50px;
+        width: 950px;
     }
     div#homesection1 > div > div > div > img{
-        width: 100%;
-        height: 370px;
+        width: 350px;
+        height: 400px;
         margin-top: 100px;
     }
     div#homesection1 > div > div > div:nth-child(1) > p.digital {
@@ -357,7 +370,6 @@ div#homesection3 > div > div > div > img {
         font-weight: 600;
         font-family: Montserrat;
         line-height: 51px;
-        color: #001B2C;
     }
     div#homesection1 > div > div > div:nth-child(1) > p.account {
         font-size: 14px;
@@ -378,91 +390,63 @@ div#homesection3 > div > div > div > img {
         width: 30px;
         height: 30px;
     }
-    /* Styling for home section 2*/
+}
+@media screen and (max-width : 1200px){
+    /* Styling for the second section */
+    div#homesection2{
+        margin-top: 0px;
+    }
+
     div.partner1 {
-        grid-template-rows: 500px;
-        width: 96%;
-        margin-left: 2%;
-    }
-    div.partner1 > div:nth-child(2) > p:nth-child(1){
-        font-size: 32px;
-        line-height: 40px;
-    }
-    div.partner1 > div:nth-child(2) > p:nth-child(2){
-        font-size: 12px;
-        line-height: 18px;
-        font-weight: 500;
-    }
-    div.partner1 > div > div.check {
-        height: 60px;
-    }
-    div.partner1 > div > div.check > div {
-        width: calc(92.5% - 40px);
-        font-size: 12px;
-        line-height: 18px;
-        font-weight: 300;
-    }
-    div.partner1 > div > div:nth-child(6) {
-        width: 250px;
-    }
-    div.partner1 > div > div:nth-child(6) > button {
-        width: 130px;
-        border-radius: 8px;
-        font-size: 12px;
-        line-height: 18px;
-    }
-    div.partner1 > div > div:nth-child(6) > span {
-        font-size: 12px;
-        line-height: 18px;
+        grid-template-columns: 400px 500px;
+        grid-template-rows: 750px;
+        width: 1000px;
+        margin-left: calc((100% - 1000px)/2);
     }
     div.partner2 {
-        grid-template-rows: 600px;
-    }
-    div.partner2 > div > div.check > div {
-        width: calc(92.5% - 40px);
-        font-size: 12px;
-        line-height: 18px;
-    }
-    div.partner2 > div > div.check {
-        height: 80px;
-    }
-    div.partner2 > div:nth-child(1) > p:nth-child(1){
-        font-size: 32px;
-        line-height: 40px;
-    }
-    div.partner2 > div:nth-child(1) > div.check > div{
-        font-size: 12px;
+        display: grid;
+        grid-template-columns: 500px 400px;
+        grid-template-rows: 700px;
+        width: 1000px;
+        margin-left: calc((100% - 1000px)/2);
     }
     div.partner1 img, div.partner2 img{
-        width: 100%;
-        height: 400px;
+        width: 360px;
+        height: 500px;
         margin-top: 50px;
     }
-    div.partner2 div.check p {
-        font-size: 14px;
-        line-height: 23px;
+    div.partner1 > div:nth-child(2) > p:nth-child(1){
+        font-size: 40px;
+        line-height: 45px;
     }
-    div.partner2 > div:nth-child(1) > button{
-        width: 130px;
-        height: 45px;
-    }
-
-
-    /* Styling for home section 3*/
-    div#homesection3 {
-        height: 510px;
+    div.partner2 > div:nth-child(1) > p:nth-child(1){
+        font-size: 40px;
+        line-height: 45px;
     }
     div#homesection3 > div > div{
-        width: 650px;
-        margin-left: calc((100% - 650px)/2);
+        width: 750px;
+        margin-left: calc((100% - 750px)/2);
+        height: 100%;
+    }
+}
+@media screen and (max-width : 1150px ){
+    /* Styling for home section 3*/
+    div#homesection3 {
+        height: 600px;
+    }
+    div#homesection3 > div > div{
+        width: 700px;
+        margin-left: calc((100% - 700px)/2);
         height: auto;
+    }
+    div#homesection3 > div > div > div{
+        width: 30%;
     }
     div#homesection3 > div#homesect > p:nth-child(1) {
         font-size: 32px;
         line-height: 40px;
         width: 364px;
         margin-left: 95px;
-        height: 80px;
     }
     div#homesection3 > div#homesect > p:nth-child(2) {
         font-size: 12px;
@@ -492,22 +476,67 @@ div#homesection3 > div > div > div > img {
     }
 
 }
-@media screen and (max-width : 900px ){
+@media screen and (max-width : 1050px) {
+    /* Styling for the second section */
+    div#homesection2{
+        margin-top: 0px;
+    }
+
+    div.partner1 {
+        grid-template-columns: 300px 400px;
+        grid-template-rows: 750px;
+        width: 800px;
+        margin-left: calc((100% - 800px)/2);
+    }
+    div.partner2 {
+        display: grid;
+        grid-template-columns: 400px 300px;
+        grid-template-rows: 700px;
+        width: 800px;
+        margin-left: calc((100% - 800px)/2);
+    }
+    div.partner1 img, div.partner2 img{
+        width: 290px;
+        height: 450px;
+        margin-top: 75px;
+    }
+    div.partner1 > div:nth-child(2) > p:nth-child(1){
+        font-size: 34px;
+        line-height: 38px;
+    }
+    div.partner2 > div:nth-child(1) > p:nth-child(1){
+        font-size: 34px;
+        line-height: 38px;
+    }
+    div.partner1 > div > div.check > div {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    div.partner2 > div > div.check > div {
+        font-size: 16px;
+        padding-top: 10px;
+    }    
+}
+@media screen and (max-width : 970px){
     div#homesection1 {
-        min-height: 800px;
+        min-height: 650px;
     }
-    div#homesection1 > div {
-        height: 100%;
-    }
-    div#homesection1 > div > div{
-        height: 600px;
+    
+    div#homesection1 > div > div {
+        display: grid;
+        grid-template-columns: 350px 300px;
+        grid-template-rows: 500px;
+        margin-top: 20px;
+        grid-column-gap: 50px;
+        width: 700px;
     }
     div#homesection1 > div > div > div {
         margin-top: 0px;
     }
     div#homesection1 > div > div > div > img{
-        height: 230px;
+        height: 300px;
         margin-top: 70px;
+        width: 250px;
     }
     div#homesection1 > div > div > div:nth-child(1) > p.digital {
         font-size: 36px;
@@ -532,15 +561,20 @@ div#homesection3 > div > div > div > img {
         width: 30px;
         height: 30px;
     }
+}
+@media screen and (max-width : 900px ){
     /* Styling for homesection3 */
+    div#homesection3 {
+        height: 550px;
+    }
     div#homesection3 > div > div{
-        width: 530px;
-        margin-left: calc((100% - 530px)/2);
+        width: 550px;
+        margin-left: calc((100% - 550px)/2);
         height: 300px;
     }
     div#homesection3 > div > div > div{
         width: 30%;
-        height: 300px;
+        height: 250px;
     }
     div#homesection3 > div > div > div > p:nth-child(2){
         font-size: 9px;
@@ -552,18 +586,95 @@ div#homesection3 > div > div > div > img {
     }
 
 }
-@media screen and (max-width : 815px){
-    /* Styling for section 2*/
+@media screen and (max-width : 850px) {
+    /* Styling for the second section */
+    div#homesection2{
+        margin-top: 0px;
+        height: 1650px;
+    }
+
     div.partner1 {
-        grid-template-rows: 650px;
+        grid-template-columns: 250px 350px;
+        grid-template-rows: 800px;
+        width: 620px;
+        margin-left: calc((100% - 620px)/2);
     }
     div.partner2 {
-        grid-template-rows: 700px;
+        display: grid;
+        grid-template-columns: 350px 250px;
+        grid-template-rows: 800px;
+        width: 620px;
+        margin-left: calc((100% - 620px)/2);
     }
     div.partner1 img, div.partner2 img{
-        width: 100%;
-        height: 500px;
-        margin-top: 50px;
+        width: 190px;
+        height: 450px;
+        margin-top: 150px;
+    }
+    div.partner1 > div:nth-child(2) > p:nth-child(1){
+        font-size: 28px;
+        line-height: 30px;
+    }
+    div.partner2 > div:nth-child(1) > p:nth-child(1){
+        font-size: 28px;
+        line-height: 30px;
+    }
+    div.partner1 > div > div.check > div {
+        font-size: 12px;
+        padding-top: 10px;
+        height: 120px;
+    }
+    div.partner2 > div > div.check > div {
+        font-size: 12px;
+        padding-top: 10px;
+        height: 130px;
+    }    
+}
+@media screen and (max-width : 715px){
+    div#homesection1 {
+        min-height: 700px;
+    }
+    
+    div#homesection1 > div > div {
+        display: grid;
+        grid-template-columns: 320px 250px;
+        grid-template-rows: 550px;
+        margin-top: 20px;
+        grid-column-gap: 30px;
+        width: 570px;
+    }
+    div#homesection1 > div > div > div > img{
+        height: 300px;
+        margin-top: 70px;
+        width: 200px;
+    }
+    div#homesection1 > div > div > div:nth-child(1) > p.digital {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    div#homesection1 > div > div > div:nth-child(1) > p.account {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    div#homesection1 > div > div > div:nth-child(1) > p:nth-child(3) {
+        width: 300px;
+    }
+    div#homesection1 > div > div > div:nth-child(1) > p:nth-child(3) > button {
+        width: 100px;
+        font-size: 10px;
+    }
+    div#homesection1 > div > div > div:nth-child(1) > p:nth-child(6) {
+        width: 275px;
+        height: 40px;
+    }
+    div#homesection1 > div > div > div:nth-child(1) > p:nth-child(6) > img {
+        width: 30px;
+        height: 40px;
+    }
+}
+@media screen and (max-width : 700px){
+    div#homesection3 > div#homesect > p {
+        margin-left: 0px;
     }
 }
 
@@ -591,18 +702,21 @@ div#homesection3 > div > div > div > img {
         padding-left: 0px;
         padding-top: 0px;
     }
-    /* Styling for homesection2 */
+    /* Styling for homessection2*/
+    div#homesection2{
+        height: auto;
+    }
     div#homesection2 > div.partner1 {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 500px 800px;
+        grid-template-rows: 400px 600px;
         width: 80%;
         margin-left: 10%;
     }
     div.partner2 {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 500px 800px;
+        grid-template-rows: 400px 800px;
         width: 80%;
         margin-left: 10%;
     }
@@ -615,14 +729,25 @@ div#homesection3 > div > div > div > img {
     div.partner1 div.check {
         height: 120px;
     }
+    div.partner1 img, div.partner2 img{
+        width: 250px;
+        height: 300px;
+        margin-top: 50px;
+    }
+    div.partner1 > div > div.check > div {
+        padding-top: 8px;
+    }
+    div.partner2 > div > div.check > div {
+        padding-top: 8px;
+    }    
     /* Styling for homesection3 */
     div#homesection3 > div > div{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 220px;
+        width: 250px;
         height: 700px;
-        margin-left: calc((100% - 220px)/2);
+        margin-left: calc((100% - 250px)/2);
     }
     
     div#homesection3 > div > div > div{
@@ -630,7 +755,7 @@ div#homesection3 > div > div > div > img {
         height: 200px;
     }
     div#homesection3 {
-        height: 1000px;
+        height: 900px;
     }
     div#homesect {
         height: 100%;
@@ -652,7 +777,7 @@ div#homesection3 > div > div > div > img {
         line-height: 12px;
     }
     div#homesection3 > div#homesect > p:nth-child(1){
-        margin-left: calc((100% - 220px)/2);
+        margin-left: 5%;
         padding-left: 0px;
         font-size: 18px;
         line-height: 22px;
@@ -660,7 +785,7 @@ div#homesection3 > div > div > div > img {
     }
     div#homesection3 > div#homesect > p:nth-child(2){
         width: 220px;
-        margin-left: calc((100% - 220px)/2);
+        margin-left: 5%;
         font-size: 10px;
         line-height: 15px;
         height: 60px;
@@ -670,7 +795,7 @@ div#homesection3 > div > div > div > img {
     /* Styling for homesection2*/
     div#homesection2 > div.partner1 {
         display: grid;
-        grid-template-rows: 500px 800px;
+        grid-template-rows: 500px 900px;
         width: 90%;
         margin-left: 5%;
     }
@@ -699,6 +824,18 @@ div#homesection3 > div > div > div > img {
         line-height: 12px;
     }
 }
+@media screen and (max-width : 395px) {
+    div.partner1 > div > div:nth-child(6) {
+        width: 100%;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    div.partner1 > div > div:nth-child(6) > button{
+        height: 60px;
+    }
+}
 
 @media screen and (max-width : 340px ){
     /* Styling for homesection1*/
@@ -717,13 +854,17 @@ div#homesection3 > div > div > div > img {
     }
     /* Styling for homesection2*/
     div#homesection2 > div.partner1 {
-        grid-template-rows: 500px 900px;
+        grid-template-rows: 400px 1000px;
     }
     div.partner2 {
-        grid-template-rows: 500px 1000px;
+        grid-template-rows: 400px 1000px;
+    }
+    div.partner1 > div > div:nth-child(6) {
+        width: 100%;
+        height: 150px;
     }
 }
-@media screen and (max-width : 300px ){
+@media screen and (max-width : 310px ){
     /* Styling for homesection3 */
     div#homesection3 > div > div{
         width: 100%;
@@ -748,14 +889,14 @@ div#homesection3 > div > div > div > img {
     div#homesection2 > div.partner1 {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 500px 900px;
+        grid-template-rows: 400px 1000px;
         width: 80%;
         margin-left: 10%;
     }
     div.partner2 {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 500px 900px;
+        grid-template-rows: 400px 1000px;
         width: 80%;
         margin-left: 10%;
     }
